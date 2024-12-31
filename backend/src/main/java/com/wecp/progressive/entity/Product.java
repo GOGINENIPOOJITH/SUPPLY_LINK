@@ -6,11 +6,11 @@ public class Product  {
     String productName;
     String productDescription;
     int quantity;
-    Long price;
+    double price;
     
     public Product () {}
     public Product(int productId, int warehouseId, String productName, String productDescription, int quantity,
-    Long price) {
+    double price) {
         this.productId = productId;
         this.warehouseId = warehouseId;
         this.productName = productName;
@@ -48,7 +48,7 @@ public class Product  {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-    public Long getPrice() {
+    public double getPrice() {
         return price;
     }
     public void setPrice(Long price) {
