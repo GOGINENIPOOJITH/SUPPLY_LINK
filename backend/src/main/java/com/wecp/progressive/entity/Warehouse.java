@@ -11,12 +11,12 @@ import javax.persistence.ManyToOne;
 
 public class Warehouse implements Comparable<Warehouse> {
 
-    // @Id
-    // @GeneratedValue(strategy = GenerationType.IDENTITY)
+     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int warehouseId;
     
-    // @ManyToOne(cascade = CascadeType.MERGE)
-    // @JoinColumn(name = "supplierId")
+    //@ManyToOne(cascade = CascadeType.MERGE)
+    //@JoinColumn(name = "supplierId")
     private int supplierId;
     private String warehouseName;
     private String location;
