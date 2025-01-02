@@ -2,10 +2,13 @@ package com.wecp.progressive.service.impl;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.wecp.progressive.dao.SupplierDAO;
 import com.wecp.progressive.entity.Supplier;
 import com.wecp.progressive.service.SupplierService;
 
+@Service
 public class SupplierServiceImplJpa implements SupplierService  {
 
     private SupplierDAO supplierDAO;

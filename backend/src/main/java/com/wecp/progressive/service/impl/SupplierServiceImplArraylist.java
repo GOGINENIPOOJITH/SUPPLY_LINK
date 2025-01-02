@@ -26,7 +26,7 @@ public class SupplierServiceImplArraylist implements SupplierService {
     }
 
     @Override
-    public List<Supplier> getAllSuppliers() {
+    public  List<Supplier> getAllSuppliers() {
         return supplierList;
     }
 
