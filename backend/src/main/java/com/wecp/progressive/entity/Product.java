@@ -9,6 +9,7 @@ import javax.persistence.Id;
 public class Product  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+<<<<<<< HEAD
     Integer productId;
     Integer warehouseId;
     String productName;
@@ -18,6 +19,18 @@ public class Product  {
     
     public Product(int productId, int warehouseId, String productName, String productDescription, int quantity,
             long price) {
+=======
+    int productId;
+    int warehouseId;
+    String productName;
+    String productDescription;
+    int quantity;
+    double price;
+    
+    public Product () {}
+    public Product(int productId, int warehouseId, String productName, String productDescription, int quantity,
+    double price) {
+>>>>>>> ca6d60b2c41f6dc569a88e6496ae140de6aeba54
         this.productId = productId;
         this.warehouseId = warehouseId;
         this.productName = productName;
@@ -25,6 +38,7 @@ public class Product  {
         this.quantity = quantity;
         this.price = price;
     }
+<<<<<<< HEAD
     public Product () {}
     public Product(int warehouseId, String productName, String productDescription, int quantity,
     long price) {
@@ -34,6 +48,8 @@ public class Product  {
         this.quantity = quantity;
         this.price = price;
     }
+=======
+>>>>>>> ca6d60b2c41f6dc569a88e6496ae140de6aeba54
     public int getProductId() {
         return productId;
     }
@@ -64,10 +80,17 @@ public class Product  {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+<<<<<<< HEAD
     public long getPrice() {
         return price;
     }
     public void setPrice(long price) {
+=======
+    public double getPrice() {
+        return price;
+    }
+    public void setPrice(Long price) {
+>>>>>>> ca6d60b2c41f6dc569a88e6496ae140de6aeba54
         this.price = price;
     }
     

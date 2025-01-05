@@ -1,5 +1,6 @@
 package com.wecp.progressive.service.impl;
 
+<<<<<<< HEAD
 
 import com.wecp.progressive.entity.Supplier;
 import com.wecp.progressive.exception.SupplierAlreadyExistsException;
@@ -65,4 +66,41 @@ public class SupplierServiceImplJpa implements SupplierService {
         }
         throw new SupplierDoesNotExistException("Supplier with the given supplierId does not exists");
     }
+=======
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.wecp.progressive.dao.SupplierDAO;
+import com.wecp.progressive.entity.Supplier;
+import com.wecp.progressive.service.SupplierService;
+
+@Service
+public class SupplierServiceImplJpa implements SupplierService  {
+
+    private SupplierDAO supplierDAO;
+
+    public SupplierServiceImplJpa(SupplierDAO supplierDAO) {
+        this.supplierDAO = supplierDAO;
+    }
+   
+    @Override
+    public List<Supplier> getAllSuppliers() {
+        // TODO Auto-generated method stub
+        return List.of();
+    }
+
+    @Override
+    public int addSupplier(Supplier supplier) {
+        // TODO Auto-generated method stub
+        return -1;
+    }
+
+    @Override
+    public List<Supplier> getAllSuppliersSortedByName() {
+        // TODO Auto-generated method stub
+        return List.of();
+    }
+
+>>>>>>> ca6d60b2c41f6dc569a88e6496ae140de6aeba54
 }

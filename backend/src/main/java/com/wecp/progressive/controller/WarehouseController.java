@@ -2,7 +2,10 @@ package com.wecp.progressive.controller;
 
 import com.wecp.progressive.entity.Warehouse;
 import org.springframework.http.ResponseEntity;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.RestController;
+=======
+>>>>>>> ca6d60b2c41f6dc569a88e6496ae140de6aeba54
 
 import java.util.List;
 
