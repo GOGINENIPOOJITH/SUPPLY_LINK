@@ -7,6 +7,7 @@ import com.wecp.progressive.service.impl.WarehouseServiceImplJpa;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,7 +15,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+=======
+<<<<<<< HEAD
+>>>>>>> d71e91e378b374bf6a007ebd46dd727aeaf424b6
 import org.springframework.web.bind.annotation.RestController;
+=======
+>>>>>>> ca6d60b2c41f6dc569a88e6496ae140de6aeba54
 
 import java.sql.SQLException;
 import java.util.List;
